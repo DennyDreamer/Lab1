@@ -1,5 +1,5 @@
 package program1;
-
+import java.applet.*;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
