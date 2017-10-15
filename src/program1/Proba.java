@@ -1,14 +1,22 @@
 package program1;
 
 import java.io.File;
+
 import java.util.HashMap;
+import java.util.*;
+
 public class Proba
 {
 	public static void main(String[] args)
 	{
 		Proba p = new Proba();
 		p.start();
+		HelloWorld();
 
+	}
+	public static void HelloWorld()
+	{
+		System.out.println("hello world");
 	}
 	/**
 	 * Construct a DOT graph in memory, convert it

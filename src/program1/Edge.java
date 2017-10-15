@@ -1,5 +1,8 @@
 package program1;
 
+import java.util.*;
+import java.util.HashMap;
+///lalalala
 public class Edge {
 	vertex to;
 	int wight;
