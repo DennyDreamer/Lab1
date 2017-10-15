@@ -6,7 +6,7 @@ import java.applet.*;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
-//hello world
+//hello worlda's'd'fa's'da's'd
 public class vertex {
 	HashMap<String,Edge> E;
 	String text;
