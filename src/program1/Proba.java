@@ -4,7 +4,6 @@ import java.io.File;
 
 import java.util.HashMap;
 import java.util.*;
-
 public class Proba
 {
 	public static void main(String[] args)
