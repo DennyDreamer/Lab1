@@ -1,9 +1,9 @@
 package program1;
-
+import java.util.*;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
-
+//hello world
 public class vertex {
 	HashMap<String,Edge> E;
 	String text;
@@ -17,10 +17,14 @@ public class vertex {
 	int Dist;
 	vertex P;
 	
-
+	public static void HelloWorld()
+	{
+		System.out.println("hello world");
+	}
 	
 	void Init()
 	{
+		
 		Know=0;
 		Dist=-1;
 		P=null;
@@ -48,14 +52,5 @@ public class vertex {
 		T=new String[50];
 	}
 	
-	/*public static  void ErgodicE()
-	{
-		Iterator<Entry<String, Edge>> iter =E.entrySet().iterator();
-		while(iter.hasNext())
-		{
-			Entry<String, Edge> entry=iter.next();
-			entry.getKey();
-			entry.getValue();
-		}
-	}*/
+
 }

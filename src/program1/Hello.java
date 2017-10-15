@@ -1,19 +1,18 @@
 package program1;
 import java.io 
-//This is my first modify of Second Scene
 .BufferedReader;
 import java.io 
 
 .IOException;
 import java.io 
-//Hello World
+
 .InputStreamReader;
 import java.io 
 
 .File;
 import java.io.FileNotFoundException;
 
-
+import java.util.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -32,7 +31,7 @@ public class Hello {
 		String word1,word2;
 		Graph GT=new Graph();
 		String filepath=null;
-		
+		HelloWorld();
 		boolean flag = true;
 		while(flag)
 		{			
@@ -155,7 +154,10 @@ public class Hello {
 		}
 		return result.toString();                  //返回处理完毕的字符串
 	}
-
+	public static void HelloWorld()
+	{
+		System.out.println("hello world");
+	}
 	
 
 
