@@ -1,4 +1,5 @@
 package program1;
+import java.applet.*;
 
 import java.util.*;
 import java.util.HashMap;

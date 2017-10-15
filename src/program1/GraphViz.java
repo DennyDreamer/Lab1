@@ -1,4 +1,7 @@
 package program1;
+
+import java.util.*;
+
 import java.applet.*;
 //GraphViz.java - a simple API to call dot from Java programs
 

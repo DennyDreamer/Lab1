@@ -4,6 +4,10 @@ import java.io.File;
 
 import java.util.HashMap;
 import java.util.*;
+<<<<<<< HEAD
+=======
+import java.applet.*;
+>>>>>>> C4
 public class Proba
 {
 	public static void main(String[] args)
